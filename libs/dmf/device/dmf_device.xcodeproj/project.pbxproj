@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91300B11B0E1CB500067241 /* dmf_utils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C91300AF1B0E1CB500067241 /* dmf_utils.hpp */; };
+		C91300B21B0E1CB500067241 /* dmf.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C91300B01B0E1CB500067241 /* dmf.hpp */; };
+		C9BE0AC41A766C3D005680BE /* dmf_device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9BE0ABF1A766C3D005680BE /* dmf_device.cpp */; };
+		C9BE0AC51A766C3D005680BE /* dmf_device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9BE0AC01A766C3D005680BE /* dmf_device.hpp */; };
+		C9BE0AC61A766C3D005680BE /* dmf_devicehandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9BE0AC11A766C3D005680BE /* dmf_devicehandler.cpp */; };
+		C9BE0AC71A766C3D005680BE /* dmf_devicehandler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9BE0AC21A766C3D005680BE /* dmf_devicehandler.hpp */; };
+		C9BE0AC81A766C3D005680BE /* dmf_deviceinterface.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9BE0AC31A766C3D005680BE /* dmf_deviceinterface.hpp */; };
+		C9C31C181A93A9C2007AE08D /* dmf_crc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C31C161A93A9C2007AE08D /* dmf_crc.cpp */; };
+		C9C31C191A93A9C2007AE08D /* dmf_crc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9C31C171A93A9C2007AE08D /* dmf_crc.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C91300AF1B0E1CB500067241 /* dmf_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dmf_utils.hpp; path = ../dmf_utils.hpp; sourceTree = "<group>"; };
+		C91300B01B0E1CB500067241 /* dmf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dmf.hpp; path = ../dmf.hpp; sourceTree = "<group>"; };
+		C9BE0AB81A766ADD005680BE /* libdmf_device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdmf_device.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BE0ABF1A766C3D005680BE /* dmf_device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dmf_device.cpp; path = code/dmf_device.cpp; sourceTree = "<group>"; };
+		C9BE0AC01A766C3D005680BE /* dmf_device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dmf_device.hpp; path = code/dmf_device.hpp; sourceTree = "<group>"; };
+		C9BE0AC11A766C3D005680BE /* dmf_devicehandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dmf_devicehandler.cpp; path = code/dmf_devicehandler.cpp; sourceTree = "<group>"; };
+		C9BE0AC21A766C3D005680BE /* dmf_devicehandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dmf_devicehandler.hpp; path = code/dmf_devicehandler.hpp; sourceTree = "<group>"; };
+		C9BE0AC31A766C3D005680BE /* dmf_deviceinterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dmf_deviceinterface.hpp; path = code/dmf_deviceinterface.hpp; sourceTree = "<group>"; };
+		C9C31C161A93A9C2007AE08D /* dmf_crc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dmf_crc.cpp; path = code/dmf_crc.cpp; sourceTree = "<group>"; };
+		C9C31C171A93A9C2007AE08D /* dmf_crc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dmf_crc.hpp; path = code/dmf_crc.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BE0AB51A766ADD005680BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BE0AAF1A766ADD005680BE = {
+			isa = PBXGroup;
+			children = (
+				C91300AF1B0E1CB500067241 /* dmf_utils.hpp */,
+				C91300B01B0E1CB500067241 /* dmf.hpp */,
+				C9C31C161A93A9C2007AE08D /* dmf_crc.cpp */,
+				C9C31C171A93A9C2007AE08D /* dmf_crc.hpp */,
+				C9BE0ABF1A766C3D005680BE /* dmf_device.cpp */,
+				C9BE0AC01A766C3D005680BE /* dmf_device.hpp */,
+				C9BE0AC11A766C3D005680BE /* dmf_devicehandler.cpp */,
+				C9BE0AC21A766C3D005680BE /* dmf_devicehandler.hpp */,
+				C9BE0AC31A766C3D005680BE /* dmf_deviceinterface.hpp */,
+				C9BE0AB91A766ADD005680BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BE0AB91A766ADD005680BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BE0AB81A766ADD005680BE /* libdmf_device.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C9BE0AB61A766ADD005680BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91300B21B0E1CB500067241 /* dmf.hpp in Headers */,
+				C9BE0AC51A766C3D005680BE /* dmf_device.hpp in Headers */,
+				C9BE0AC81A766C3D005680BE /* dmf_deviceinterface.hpp in Headers */,
+				C9BE0AC71A766C3D005680BE /* dmf_devicehandler.hpp in Headers */,
+				C9C31C191A93A9C2007AE08D /* dmf_crc.hpp in Headers */,
+				C91300B11B0E1CB500067241 /* dmf_utils.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9BE0AB71A766ADD005680BE /* dmf_device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BE0ABC1A766ADD005680BE /* Build configuration list for PBXNativeTarget "dmf_device" */;
+			buildPhases = (
+				C9BE0AB41A766ADD005680BE /* Sources */,
+				C9BE0AB51A766ADD005680BE /* Frameworks */,
+				C9BE0AB61A766ADD005680BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dmf_device;
+			productName = dmf_device;
+			productReference = C9BE0AB81A766ADD005680BE /* libdmf_device.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BE0AB01A766ADD005680BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = cs;
+				TargetAttributes = {
+					C9BE0AB71A766ADD005680BE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C9BE0AB31A766ADD005680BE /* Build configuration list for PBXProject "dmf_device" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9BE0AAF1A766ADD005680BE;
+			productRefGroup = C9BE0AB91A766ADD005680BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BE0AB71A766ADD005680BE /* dmf_device */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BE0AB41A766ADD005680BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BE0AC61A766C3D005680BE /* dmf_devicehandler.cpp in Sources */,
+				C9BE0AC41A766C3D005680BE /* dmf_device.cpp in Sources */,
+				C9C31C181A93A9C2007AE08D /* dmf_crc.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9BE0ABA1A766ADD005680BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/plugins @loader_path @executable_path @executable_path/plugins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9BE0ABB1A766ADD005680BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/plugins @loader_path @executable_path @executable_path/plugins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9BE0ABD1A766ADD005680BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./code/**",
+					../,
+					/usr/local/include,
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./code/**",
+					../,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C9BE0ABE1A766ADD005680BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./code/**",
+					../,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BE0AB31A766ADD005680BE /* Build configuration list for PBXProject "dmf_device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BE0ABA1A766ADD005680BE /* Debug */,
+				C9BE0ABB1A766ADD005680BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BE0ABC1A766ADD005680BE /* Build configuration list for PBXNativeTarget "dmf_device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BE0ABD1A766ADD005680BE /* Debug */,
+				C9BE0ABE1A766ADD005680BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BE0AB01A766ADD005680BE /* Project object */;
+}

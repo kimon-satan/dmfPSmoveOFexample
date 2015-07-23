@@ -1,0 +1,4 @@
+/Build
+/Build/*
+*.app
+.DS_Store*

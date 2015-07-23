@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="code\dmf_device.cpp" />
+    <ClCompile Include="code\dmf_devicehandler.cpp" />
+    <ClCompile Include="code\dmf_testDevice.cpp" />
+    <ClCompile Include="code\dmf_crc.cpp" />
+    <ClCompile Include="code\dmf_pluginmanager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\dmf_device.hpp" />
+    <ClInclude Include="code\dmf_devicehandler.hpp" />
+    <ClInclude Include="code\dmf_testDevice.hpp" />
+    <ClInclude Include="..\dmf.hpp">
+      <Filter>dmf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dmf_utils.hpp">
+      <Filter>dmf</Filter>
+    </ClInclude>
+    <ClInclude Include="code\dmf_deviceinterface.hpp" />
+    <ClInclude Include="code\dmf_crc.hpp" />
+    <ClInclude Include="code\dmf_pluginmanager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dmf">
+      <UniqueIdentifier>{0c40f931-d184-4251-bb7e-b11bd33edc41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEVICE_PLUGINS">
+      <UniqueIdentifier>{5f16c635-d29b-41a3-a8aa-b18da756e31c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
